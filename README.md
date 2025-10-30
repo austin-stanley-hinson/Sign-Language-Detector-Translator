@@ -20,3 +20,21 @@ The model recognizes a predefined set of gestures such as “Hello,” “Yes,�
 
 ## Repository Structure
 
+Sign_Language/
+│
+├── data_collection.py # Script for capturing and saving gesture images
+├── test.py # Real-time classification and visualization
+├── converted_keras/
+│ ├── keras_model.h5 # Pre-trained model
+│ └── labels.txt # Class labels for prediction
+├── assets/
+│ └── thumbnail.jpg # Project thumbnail
+├── README.md
+└── .gitignore
+
+
+python3.11 -m venv .venv
+source .venv/bin/activate
+
+
+
